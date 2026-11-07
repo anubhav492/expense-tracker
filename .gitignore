@@ -1,0 +1,16 @@
+# Dependencies (at any level)
+node_modules/
+
+# Local environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated output and deployment metadata
+dist/
+build/
+.vercel/
+
+# Logs and local package caches
+*.log
+.npm-cache/
